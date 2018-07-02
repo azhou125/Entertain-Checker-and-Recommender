@@ -1,8 +1,8 @@
 # Description:
 This is a capstone project used to learn about HTML, CSS, Javascript, and implementing several APIs.
 
-## Project: Taste Explorer
-Live app link: https://azhou125.github.io/Entertain-Checker-and-Recommender/
+## Project Demo: Taste Explorer
+- [Live Demo](https://book-thing.herokuapp.com/)
 
 
 ## Screenshots:
@@ -24,3 +24,6 @@ After they click "Explore". There will be two sections render below: 1) Results 
 
 ## Technology used:(HTML/CSS/JavaScript/jQuery) 
 ## API used: Tastedive/Youtube ("Promise" is used.)
+
+## Authors
+* **Ang Zhou** - ** - Front-End development/testing, styling
