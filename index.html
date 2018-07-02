@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Taste Explorer</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+
+    <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>  
+
+  </head>
+  <body>
+    <header role="banner">
+      <h1>Taste Explorer</h1>
+    </header>
+
+    <main role="main">
+
+      <form action="#" class="js-search-form border-box">
+        <fieldset>
+          <legend>Explore your taste</legend>
+          <block class="input">
+            <label for="query">Keywords:</label>
+            <input class="js-query" type="text" name="query" id="query" required>
+          </block>
+          <label for="queryType">Recommend type:</label>
+          <select class="js-query-type" name="queryType" id="queryType">
+            <option value="" selected>None</option>
+            <option value="music" >Music</option>
+            <option value="movies">Movies</option>
+            <option value="shows">Shows</option>
+            <option value="authors">Authors</option>
+            <option value="games">Games</option>
+          </select>
+          <button type="submit">Explore</button>
+        </fieldset>
+      </form>
+
+
+      <section class="js-search-results js-result border-box hidden" aria-live="assertive">
+        
+      </section>
+      <section class="js-recommend-results js-result border-box hidden" aria-live="assertive">
+        
+      </section>
+
+      <!-- The Modal -->
+        <div id="myModal" class="modal hidden">
+
+          <!-- The Close Button -->
+          <button class="close">&times;</button>
+
+          <!-- Modal Content (The YouTube video) -->
+          <iframe width="420" height="500" id="modalVideo" class="modal-content">
+          </iframe>
+
+          <!-- Video Channel (Modal Text) -->
+          <div id="channel"></div>
+
+          <!-- Modal Caption (Modal Text)
+          <div id="caption"></div> -->
+
+        </div>
+
+
+      <!-- <section class="js-search-results-page-button">
+
+      </section> -->
+
+    </main>
+
+    <script src="API.js"></script>
+    <script src="renderLightBox.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
