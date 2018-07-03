@@ -17,7 +17,7 @@ function getDataFromTasteDiveApi(searchTerm, searchType, callbackFunc, pageToken
     type: 'GET',
     success: callbackFunc
   };
-  $.ajax(settings);
+  return $.ajax(settings);
 }
 
 

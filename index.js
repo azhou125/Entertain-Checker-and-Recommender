@@ -6,7 +6,7 @@ function renderYoutubeResultHTML(result) {
   const channel_id=result.snippet.channelId;
   const title=result.snippet.title;
   return `
-    <img src="${pic_url}" alt="Video Image" video-id="${video_id}" channel-id="${channel_id}" aria-label="Video title: ${title}. click to play it in the light box" class="video-runner video-img">
+    <img src="${pic_url}" alt="Video Image" video-id="${video_id}" channel-id="${channel_id}" video-title="${title}" aria-label="Video title: ${title}. click to play it in the light box" class="video-runner video-img">
   `;
 }
 
@@ -52,7 +52,7 @@ function renderResultHTML(itemData,youtubeData){
       <block class="youtube-video-list">
         ${youTubeResult}
       </block>
-    <section class="single-result">
+    </section>
   `;
 
   return result;

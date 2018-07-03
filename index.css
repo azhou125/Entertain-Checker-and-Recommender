@@ -8,10 +8,6 @@
   display: none; /* Hidden by default */
 }
 
-html {
-  font-size: 100%;
-}
-
 header {
     margin-left:25%;
     margin-right:25%;
@@ -43,12 +39,24 @@ body {
   padding-bottom:5px;
 }
 
+.js-search-form input,.js-search-form select,.js-search-form button{
+  margin:auto;
+  margin-bottom:1ex;
+  height: 3ex;
+  width:95%;
+}
+
 .border-box *{
   border: none;
   font-size: 13px;
   margin:5px;
   margin-left:0.5%;
   margin-right:0.5%;
+}
+
+.js-search-form *{
+  display: block;
+  font-size:larger;
 }
 
 .input {
@@ -106,6 +114,19 @@ body {
       font-size: 16px;
     }
 
+    .js-search-form *{
+      font-size:larger;
+      display: inline-block;
+    }
+
+    
+
+    .js-search-form input,.js-search-form select,.js-search-form button{
+      margin-bottom:1ex;
+      height: 3ex;
+      width:auto;
+    }
+
     .single-result {
       margin: 4%;
     }
@@ -122,6 +143,10 @@ body {
 
     header {
         font-size: 14px;
+    }
+
+    .js-search-form *{
+      display: inline-block;
     }
 
     .border-box {

@@ -6,10 +6,12 @@ function renderVideo(){
     const modal = $('#myModal').removeClass('hidden');
     
     const video_id=$(this).attr("video-id");
+    
+    const video_title=$(this).attr("video-title");
 
     const iframe=$(".modal-content");
     iframe.attr("src",`https://www.youtube.com/embed/${video_id}`);
-    // iframe.attr("title",title);
+    iframe.attr("title",video_title);
 
     const closeButton=$(".modal .close");
     closeButton.focus();
