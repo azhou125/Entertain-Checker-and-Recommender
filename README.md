@@ -2,7 +2,7 @@
 This is a capstone project used to learn about HTML, CSS, Javascript, and implementing several APIs.
 
 ## Project Demo: Taste Explorer
-- [Live Demo](https://book-thing.herokuapp.com/)
+- [Live Demo](https://.com/)
 
 
 ## Screenshots:
