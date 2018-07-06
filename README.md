@@ -2,7 +2,7 @@
 This is a capstone project used to learn about HTML, CSS, Javascript, and implementing several APIs.
 
 ## Project Demo: Taste Explorer
-- [Live Demo](https://.com/)
+- [Live Demo](https://azhou125.github.io/Taste-Explorer/)
 
 
 ## Screenshots:
