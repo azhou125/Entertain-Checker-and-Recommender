@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width">
     <title>Taste Explorer</title>
     <link href="index.css" rel="stylesheet" type="text/css" />
-
+    <link href="https://fonts.googleapis.com/css?family=Arizonia" rel="stylesheet">
     <script
           src="https://code.jquery.com/jquery-3.2.1.min.js"
           integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-          crossorigin="anonymous"></script>  
+          crossorigin="anonymous"></script>
 
   </head>
   <body>
@@ -21,9 +21,9 @@
 
       <form action="#" class="js-search-form border-box">
         <fieldset>
-          <legend>Explore your taste</legend>
+          <legend>Explore your taste <span>Enter the name of a movie, book, game, song, band, anything, and then choose a category of media to recommend for fans of that!</span></legend>
           <label for="query">Keywords:</label>
-          <input class="js-query" type="text" name="query" id="query" required>
+          <input class="js-query" type="text" name="query" id="query" required placeholder="Dead Pool 2">
           <label for="queryType">Recommend type:</label>
           <select class="js-query-type" name="queryType" id="queryType">
             <option value="" selected>None</option>
