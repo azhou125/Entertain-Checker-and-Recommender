@@ -6,7 +6,7 @@ This is a capstone project used to learn about HTML, CSS, Javascript, and implem
 
 
 ## Screenshots:
-![screenshot1](screenShots/screenshot1.png "Results section")
+![screenshot1](screenShots/screenshot1.jpg "Results section")
 
 ![screenshot2](screenShots/screenshot2.jpg "Part of Recommnedation section")
 
